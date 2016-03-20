@@ -12,17 +12,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <script src="js/slides.min.jquery.js"></script>
-    <script>
-        $(function () {
-            $('#slides').slides({
-                preload: true,
-                preloadImage: 'images/loading.gif',
-                play: 5000,
-                pause: 2500,
-                hoverPause: true
-            });
-        });
-    </script>
 
 
 </head>
@@ -46,10 +35,9 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li class="active"><a href="#">Rooms</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="#">Contact</a></li>
-
                 </ul>
             </nav>
             <!--end menu-->
@@ -59,94 +47,31 @@
         </header>
 
 
-        <!--start intro-->
-
-        <section id="intro">
-            <div id="slides">
-                <div class="slides_container">
-                    <img src="images/facilities/facility2-1024x768.jpg" width="960" height="300" alt="baner">
-                    <img src="images/facilities/facility3-1024x768.jpg" width="960" height="300" alt="baner">
-                    <img src="images/facilities/facility4-1024x768.jpg" width="960" height="300" alt="baner">
-                    <img src="images/facilities/facility5-1024x768.jpg" width="960" height="300" alt="baner">
-                    <img src="images/facilities/facility6-1024x768.jpg" width="960" height="300" alt="baner">
-                    <img src="images/facilities/facility7-1024x768.jpg" width="960" height="300" alt="baner">
-
-
-
-                </div>
-            </div>
-
-        </section>
-        <!--end intro-->
-
-
-        <!--start holder-->
-        <div class="holder_content1">
-
-            <section class="group5">
-
-                <article>
-
-                    <h2>
-                       Modern and cozy rooms for your cat(s) at lower price are available.
-                    </h2>
-
-
-                </article> 
-
-            </section>
-
-        </div>
-        <!--end holder-->
-
-
         <!--start holder-->
 
         <div class="holder_content">
-            <h1>Rooms</h1>
-
-            <section class="group1">
-
-                <a class="photo_hover3" href="#"><img src="images/facilities/facility2-1024x768.jpg" width="190" height="126" alt="picture" /></a>
+            <h3>Rooms</h3>
+            <figure>
+                <img class="photo_rooms" src="images/suites1.jpg" alt="picture" />
 
 
-                <p>Cats don't like change without their consent. 
 
-                    Cats can be cooperative when something feels good, which, to a cat, is the way everything is supposed to feel as much of the time as possible. 
+                <figcaption> A cosy room with all your cat need : stainless steel 
+                    bowls (most sanitary) for their dry food and water and a paper 
+                    tray for the wet food. Fluffy, cozy pet beds are provided. <br />
+                    Price : <strong>$10 for 7 days</strong> <br />
+                    Size: Depth 2.3ft- Width 2.3ft- Height 2.8ft. </figcaption>
 
-                    The cat is a creature of most refined and subtle perceptions naturally. </p>
-                <a href=""><span class="button">$30</span></a>
-            </section>
+            </figure>
 
+            <h3>Amenities</h3>
 
-            <section class="group2">
+            <figure>
+                <img class="photo_rooms" src="images/facilities/facility6-1024x768.jpg" alt="picture" />
 
-                <a class="photo_hover3" href="#"><img src="images/facilities/facility3-1024x768.jpg" width="190" height="126" alt="picture" /></a>
-
-                <p>There are people who reshape the world by force or argument, but the cat just lies there, dozing; and the world quietly reshapes itself to suit his comfort and convenience.</p>
-                <a href=""><span class="button">$50</span></a>
-            </section>
-
-            <section class="group3">
-
-                <a class="photo_hover3" href="#"><img src="images/facilities/facility4-1024x768.jpg" width="190" height="126" alt="picture" /></a>
-                <p>The thing about cats,
-                    As you may find,
-                    Is that no one knows
-                    What they have in mind.   </p>
-                <a href=""><span class="button">$42</span></a>
-
-            </section>
-
-            <section class="group4">
-
-                <a class="photo_hover3" href="#"><img src="images/facilities/facility5-1024x768.jpg" width="190" height="126" alt="picture" /></a>
-
-                <p>Cats have always been associated with the Moon. Like the Moon, they come to life at night, escaping from humanity and wandering over housetops with their eyes beaming out through the darkness. 
-                </p>
-                <a href=""><span class="button">$22</span></a>
-
-
+                <figcaption>We provide playrooms to entertain kitties of all ages. All the kitties 
+                    are let out to play from 3 to 6 hours everyday !</figcaption>  
+            </figure>
 
         </div>
         <!--end holder-->
@@ -159,33 +84,23 @@
     <!--start footer-->
     <footer>
         <div class="container">
-            <aside class="footer_left">
-                <h4>Hello hello
-                    <span>Lorem ipsum dolor sit amet</span>
-                    <span>Lorem ipsum dolor sit amet</span>
-                </h4>
-            </aside> 
+            <div class="footer_block">
+            <h4>Cat Guardian </h4>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            
+            <div class="footer_block"></div>
 
-            <aside class="footer_left">
-                <h4>Bla bla
-                    <span>Lorem ipsum dolor sit amet</span>
-                    <span>Lorem ipsum dolor sit amet</span>
-                </h4>
-            </aside> 
-
-
-            <aside class="footer_left">
-                <h4>Purr purr
-                    <span>Lorem ipsum dolor sit amet</span>
-                    <span>Lorem ipsum dolor sit amet</span>
-                </h4>
-            </aside> 
-            <img src="images/cat_paw_prints.png" width="300" height="300" alt="contact" class="picture_footer"/>
-
-
-
-            <div id="FooterTwo"> © 2011 cats template </div>
-            <div id="FooterTree"> Valid html5 / design and code by <a href="http://www.marijazaric.com"><span style="color:#999999;text-decoration:underline">marija zaric - creative simplicity</span></a> </div> 
+            <p> <br /> Jonathan CHHAY, Gaëtan JACQUEMIN<br />
+                © 2011 cats template - valid html5 / design and code by <a href="http://www.marijazaric.com"><span style="text-decoration:underline">marija zaric - creative simplicity</span></a> </p>
         </div>
     </footer>
     <!--end footer-->
