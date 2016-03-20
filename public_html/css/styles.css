@@ -46,7 +46,7 @@ html {
 body{
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 13px;
-    background-color: #FFF;
+    background-color: #efefef;
     margin:0 0 1px; height:100%; 
     line-height: 1.5;
 }
@@ -283,9 +283,24 @@ footer{
     background-color:#FF6666;
 }
 
+.footer_block nav ul li a {
+    padding: 5px;
+}
+.footer_block nav ul li a:hover {
+    color: #FF6666;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
 .footer_block {
     display: inline-block;
     vertical-align: top;
+    margin-right: 50px;
+}
+
+#catPaws {
+    height: 50%;
+    width: 50%;
 }
 
 .container{
