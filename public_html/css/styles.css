@@ -363,7 +363,10 @@ header nav ul li.active{
     
 }
 
-
+#logo img{
+    width: "232";
+    height: "133";
+}
 
 .button {
     width: 80px;
