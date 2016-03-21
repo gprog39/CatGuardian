@@ -9,6 +9,7 @@
 
     <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/form.css"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <script src="js/slides.min.jquery.js"></script>
@@ -25,7 +26,7 @@
         <header>
 
             <!--start logo-->
-            <a href="#" id="logo"><img src="images/logo.png" width="262" height="133" alt="logo"/></a>    
+            <a href="#" id="logo"><img src="images/catGuardianLogoFree.png" alt="logo"/></a>  
 
             <!--end logo-->
 
@@ -47,12 +48,37 @@
 
         <!--start holder-->
 
-        <div class="holder_content">
-            <h3>Contact us</h3>
-            <p>
-                Cat Guardian <br />
-                1914 14th St NW, Washington, DC 20009, USA
-            </p>
+<div class="holder_content">
+    <h3>Contact us</h3>
+            
+            
+    <div class="form_container">  
+                
+  <form id="contact" action="" method="post">
+      
+      <h3>
+        Cat Guardian <br />
+        1914 14th St NW, Washington, DC 20009, USA
+    </h3>
+      
+      <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+
+          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+
+          <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+
+          <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+
+      </fieldset>
+          
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+  </form>
+ 
+  
+</div>
             
             <h3>Map</h3>
 
