@@ -345,10 +345,14 @@ header nav ul li a:hover{
 
 }
 
-header nav ul li.active{
+li.active{
     background-color: #FF6666;
     border-radius: 5px;
 
+}
+
+li.active a{
+    color: #fff;
 }
 
 
